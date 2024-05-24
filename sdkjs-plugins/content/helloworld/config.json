@@ -1,0 +1,80 @@
+{
+    "baseUrl": "",
+    "group": {
+        "name": "DestaqueClausulas",
+        "rank": 2
+    },
+    "guid": "asc.{FD2EAE53-4AA0-43B1-B32B-B7F60017D46C}",
+    "help": "",
+    "minVersion": "1.0.1",
+    "name": "Teste Davi",
+    "nameLocale": {
+        "pt": "Destacar Texto"
+    },
+    "offered": "Davi Serrano",
+    "variations": [
+        {
+            "buttons": [
+                { 
+                    "text": "Cancel",
+                    "primary": false,
+                    "isviewer": false,
+                    "textLocale": {
+                        "pt": "Cancelar"
+                    }
+                }
+            ],
+            "cryptoDisabledForExternalCloud": "true",
+            "cryptoDisabledForInternalCloud": "true",
+            "cryptoDisabledOnStart": "true",
+            "cryptoMode": "1",
+            "description": "Plugin to highlight certain parts of the document",
+            "descriptionLocale": {
+                "pt": "Plugin para destacar partes específicas do texto"
+            },
+            "EditorsSupport": ["word"],
+            "events": ["onClick"],
+            "icons": ["icon.png", "icon@2x.png"],
+            "icons2": [
+                {
+                    "100%": { "normal": "icon.png" },
+                    "125%": { "normal": "icon@1.25.png" },
+                    "150%": { "normal": "icon@1.5x.png" },
+                    "175%": { "normal": "icon@1.75.png" },
+                    "200%": { "normal": "icon@2x.png" }
+                },
+                {
+                    "style": "dark"
+                }
+            ],
+            "initData": "",
+            "initDataType": "ole",
+            "initOnSelectionChanged": true,
+            "isCustomWindow": true,
+            "isDisplayedInViewer": true,
+            "isInsideMode": false,
+            "isModal": true,
+            "isSystem": false,
+            "isUpdateOleOnResize": true,
+            "isViewer": true,
+            "isVisual": false,
+            "screens": [],
+            "size": [0, 0],
+            "store": {
+                "background": {
+                    "light": "#F5F5F5",
+                    "dark": "#444444"
+                },
+                "categories": ["specAbilities", "work"],
+                "icons": {
+                    "light": "resources/store/icons",
+                    "dark" : "resources/store/icons"
+                },
+                "screenshots": []
+            },
+            "type": "background",
+            "url": "index.html"
+        }
+    ],
+    "version": "1.0"
+}
